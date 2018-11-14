@@ -1,0 +1,21 @@
+{
+	"time": "Thu Nov 15 2018 00:02:24 GMT+0100 (Central European Standard Time)",
+	"nativePlatformStatus": "1",
+	"bundle": false,
+	"release": false,
+	"changesRequireBuild": false,
+	"projectFileHash": "19e58e39cbd36c2a5cef880ebe61a830d198be59c519c749a351da2f0e3b7f52",
+	"changesRequireBuildTime": "Wed Nov 14 2018 22:56:05 GMT+0100 (Central European Standard Time)",
+	"appFilesHashes": {
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/app-root.xml": "900a386cb2d8abc9573413eb3aff45448dcd3608",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/app.css": "e8ae5f714e5f581e7be748b51cff2bf8d49d9e8f",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/app.js": "de9f42f3905e115f69ef81b7b4d558c0b3a631ad",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/app.ts": "d2aee20ec12265aac675d8f866c60b7d03ec5bb6",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/main-page.js": "feddb17038a8973ee60fe597abdb54cda2b9c976",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/main-page.ts": "07dbf12d1643feb07948ecaa3e4e4ec8febf1cd9",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/main-page.xml": "41f56400248388a145265309cc0abd06f393600d",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/main-view-model.js": "f6a0aa6f2e9ba8a60953f5c11ccfd10523305aaa",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/main-view-model.ts": "b34974bc2be511015c5570aa3a8ad2a85153b984",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/app/package.json": "554a1e7b09cfa1663c75683765118999cb11411a"
+	}
+}
