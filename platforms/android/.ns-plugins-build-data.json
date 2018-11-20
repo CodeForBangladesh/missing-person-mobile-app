@@ -1,0 +1,13 @@
+{
+	"nativescript-ui-sidedrawer": {
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/node_modules/nativescript-ui-sidedrawer/platforms/android/TNSSideDrawer-release.aar": "014feca9bb77a2b9bb64edb4fdc8a0fbfab4abed",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/node_modules/nativescript-ui-sidedrawer/platforms/android/typings/sidedrawer.d.ts": "91ef64e6d1864556d27ded671283ee4a05b7c4eb"
+	},
+	"nativescript-ui-core": {
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/node_modules/nativescript-ui-core/platforms/android/TNSCore-release.aar": "cce16a86c2a6f56ca7243ed8db86b004ecb0016e",
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/node_modules/nativescript-ui-core/platforms/android/typings/core.d.ts": "5c032652edfa1719ef8c8190fc0f66d3b1c313c2"
+	},
+	"tns-core-modules-widgets": {
+		"/Users/mossaddeque/Dropbox/CodeForBangladesh/missing-person-mobile-app/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "efe67a699a507e38b3daf4e9903fc0cdc9435a86"
+	}
+}
