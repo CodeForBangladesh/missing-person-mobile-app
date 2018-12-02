@@ -1,7 +1,3 @@
-<ActionBar class="action-bar">
-    <Label class="action-bar-title" text="Login"></Label>
-</ActionBar>
-
 <GridLayout backgroundColor="#FFFFFF">
     <ScrollView>
         <StackLayout margin="10" verticalAlignment="center">
@@ -16,9 +12,11 @@
                     <TextField secure="true" class="input" [(ngModel)]="input.password"></TextField>
                     <StackLayout class="hr-light"></StackLayout>
                 </StackLayout>
-                <Button class="btn btn-primary w-full" text="Login" (tap)="login()"></Button>
-                <Label [nsRouterLink]="['/register']" text="Not a member? Register here." class="text-center footnote"></Label>
             </StackLayout>
+            <grid-layout>
+                <Button class="btn btn-primary pull-right" text="Login" (tap)="login()" width="100"></Button>
+                <Button class="btn btn-aqua pull-left" text="Register" [nsRouterLink]="['/register']" width="120"></Button>
+            </grid-layout>
         </StackLayout>
     </ScrollView>
 </GridLayout>
