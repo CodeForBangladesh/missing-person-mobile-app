@@ -18,14 +18,17 @@
                     <StackLayout class="hr-light"></StackLayout>
                 </StackLayout>
                 <StackLayout>
-                    <Button [nsRouterLink]="['/register']" class="btn btn-primary pull-right"
-                            (tap)="register()" text="Register" width="120"></Button>
+                    <Label visibility="{{ hasError ? 'visible' : 'collapse'}}"
+                           text="{{ errorMsg }}" textWrap="true" class="text-danger"></Label>
+                </StackLayout>
+                <StackLayout>
+                    <Button class="btn btn-primary pull-right" (tap)="register()" text="Register" width="120"></Button>
                 </StackLayout>
             </StackLayout>
 
             <StackLayout>
-                <Label [nsRouterLink]="['/login']" text="I already have the account."
-                       class="text-center footnote text-primary"></Label>
+                <Label [nsRouterLink]="['/login']" text="Already have an account? Login here."
+                       class="text-center footnote text-primary" style="padding-top: 50"></Label>
             </StackLayout>
 
         </StackLayout>
