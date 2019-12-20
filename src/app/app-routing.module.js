@@ -3,8 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var router_1 = require("nativescript-angular/router");
 var routes = [
-    { path: "", redirectTo: "/login", pathMatch: "full" },
+    { path: "", redirectTo: "/register", pathMatch: "full" },
     { path: "login", loadChildren: "~/app/login/login.module#LoginModule" },
+    { path: "register", loadChildren: "~/app/registration/registration.module#RegistrationModule" },
     { path: "home", loadChildren: "~/app/home/home.module#HomeModule" },
     { path: "browse", loadChildren: "~/app/browse/browse.module#BrowseModule" },
     { path: "search", loadChildren: "~/app/search/search.module#SearchModule" },

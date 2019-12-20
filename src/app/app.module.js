@@ -5,6 +5,7 @@ var nativescript_module_1 = require("nativescript-angular/nativescript.module");
 var angular_1 = require("nativescript-ui-sidedrawer/angular");
 var app_routing_module_1 = require("./app-routing.module");
 var app_component_1 = require("./app.component");
+var http_1 = require("@angular/common/http");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -16,7 +17,8 @@ var AppModule = /** @class */ (function () {
             imports: [
                 app_routing_module_1.AppRoutingModule,
                 nativescript_module_1.NativeScriptModule,
-                angular_1.NativeScriptUISideDrawerModule
+                angular_1.NativeScriptUISideDrawerModule,
+                http_1.HttpClientModule
             ],
             declarations: [
                 app_component_1.AppComponent

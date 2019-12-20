@@ -7,12 +7,18 @@ import {Component, OnInit} from "@angular/core";
 })
 export class LoginComponent implements OnInit {
 
+    public input: any;
+
     constructor() {
         // Use the component constructor to inject providers.
     }
 
     ngOnInit(): void {
-        // Init your component properties here.
+        this.input = {
+            "email": "",
+            "password": "",
+            "confirmPassword": ""
+        }
     }
 
 }
